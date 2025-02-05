@@ -58,6 +58,7 @@ public class BHop extends Module {
         if (!Utils.isMoving()) {
             return;
         }
+        
         if (mode.getInput() >= 1) {
             if (mc.thePlayer.isCollidedHorizontally) {
                 collided = true;
